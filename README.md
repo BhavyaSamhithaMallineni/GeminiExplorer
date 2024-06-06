@@ -17,3 +17,6 @@ The Gemini Explorer App is a Streamlit-based web application that leverages Goog
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/BhavyaSamhithaMallineni/GeminiExplorer.git
+
+This is the preview of the APP
+![image](https://github.com/BhavyaSamhithaMallineni/GeminiExplorer/assets/131223497/d4083c53-a81c-498b-8080-d755626f7fe8)
