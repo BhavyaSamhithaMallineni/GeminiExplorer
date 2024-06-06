@@ -6,8 +6,24 @@ from vertexai.preview.generative_models import GenerativeModel, ChatSession
 import vertexai
 from google.cloud import aiplatform
 
+st.set_page_config(page_title="Gemini Explorer", layout="wide")
+
+# Apply CSS styles to the entire app for sky blue background.
+st.markdown("""
+    <style>
+        body {
+            color: #fff;
+            background-color: #87CEEC;
+        }
+        .stApp {
+            background-image: none;
+            background-color: #87CEEC;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
 # Initialize the Vertex AI with the project ID
-project = "gemini-explorer-424915"
+project = "xxxxxxxx"
 vertexai.init(project=project)
 
 # Configure the generative model
